@@ -167,7 +167,8 @@ $ echo "I am no longer tracked by Bash!"
 
  In short, whenever you need to open a file, create a process, access the camera, or request any other OS service, you make a specific system call. There are [over 300](https://man7.org/linux/man-pages/man2/syscalls.2.html) system calls in Linux, like `execve` to execute a program.
 
-![image.png](attachment:f0b4325d-f836-4b44-b11b-599644ca7a2b:image.png)
+<img width="1209" height="237" alt="image" src="https://github.com/user-attachments/assets/1a2ec77d-ccb7-4e91-bdc5-634ff81ab4cd" />
+
 
 Why do you need to know about system calls? Well, all modern EDRs and logging tools rely on them - they monitor the main system calls and log the details in a human-readable format. Since there is nearly no way for attackers to bypass system calls, all you have to do is choose the system calls you'd like to log and monitor. 
 
@@ -179,7 +180,9 @@ Auditd (Audit Daemon) is a built-in auditing solution often used by the SOC team
 
 Monitoring every process, file, and network event can quickly produce gigabytes of logs each day. But more logs don't always mean better detection since an attack buried in a terabyte of noise is still invisible. That's why SOC teams often focus on the highest-risk events and build balanced rulesets.
 
-![image.png](attachment:ff436eaa-09e3-4fb2-897e-4491a2bf45ee:image.png)
+
+<img width="1396" height="331" alt="image" src="https://github.com/user-attachments/assets/fd1626d8-08a8-4f11-89f5-4b5769321bea" />
+
 
 **Using Auditd:**
 
