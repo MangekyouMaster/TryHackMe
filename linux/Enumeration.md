@@ -217,20 +217,6 @@ sudo lsof -nP | less
 
 ---
 
-## 🧱 Integration Options
-
-- **CherryTree** → import as Markdown node  
-- **GitHub** → paste into your `README.md`  
-- **Docs site** → add under `/docs/enumeration.md`
-
----
-
-## 🪪 License
-Free to use, modify, and share for educational and authorized security purposes.  
-⭐ Attribution appreciated — link back if you find this helpful!
-
----
-
 > “Enumeration is the art of asking the system the right questions.” — Unknown
 
 
